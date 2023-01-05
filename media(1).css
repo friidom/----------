@@ -1,0 +1,192 @@
+@keyframes gradient {
+    0% {
+        background-position: 80% 0%;
+    }
+
+    50% {
+        background-position: 0% 100%;
+    }
+
+    100% {
+        background-position: 80% 0%;
+    }
+}
+
+@keyframes gradies {
+    0% {
+        background-position: left;
+    }
+
+    20% {
+        background-position: right;
+    }
+
+    40% {
+        background-position: bottom;
+    }
+
+    60% {
+        background-position: left;
+    }
+
+    80% {
+        background-position: top;
+    }
+
+    100% {
+        background-position: left;
+    }
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(-360deg);
+    }
+}
+
+@keyframes rotate2 {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(-50%, -50%) rotate(-360deg);
+    }
+}
+
+@keyframes neon {
+    0% {
+        filter: drop-shadow(0px 0px 15px #9a69d2);
+    }
+
+    25% {
+        filter: drop-shadow(0px 0px 2px #b07ceb) saturate(1);
+    }
+
+    50% {
+        filter: drop-shadow(0px 0px 5px #b07ceb) saturate(2);
+    }
+
+    75% {
+        filter: drop-shadow(0px 0px 2px #b07ceb) saturate(1);
+    }
+
+    100% {
+        filter: drop-shadow(0px 0px 15px #9a69d2);
+    }
+}
+
+
+
+@media only screen and (max-width: 1920px) {
+    .container {
+        width: 100%;
+        position: relative;
+    }
+
+    .text_and_hronos {
+        margin-left: 212px;
+    }
+
+    .pizda_block {
+        padding: 0 212px;
+    }
+
+    .logo {
+        width: 800px;
+        margin-left: 194px;
+    }
+
+    .section_3 {
+        height: 561px;
+    }
+}
+
+@media only screen and (max-width: 1730px) {
+    .text_and_hronos {
+        margin-left: 112px;
+    }
+    .pizda_block {
+        padding: 0 112px;
+    }
+
+    .image_box {
+        height: 895px;
+    }
+}
+
+@media only screen and (max-width: 1580px) {
+    .image_box {
+        height: 858px;
+    }
+
+    header {
+        height: 100px;
+    }
+
+    .logo {
+        margin-left: 161px;
+    }
+
+    .text_h1 {
+        font-size: 55px;
+    }
+
+    .header_menu {
+        margin-left: 0px;
+    }
+
+    .image_box {
+        height: 810px;
+    }
+
+    .pizda_block {
+        height: 125px;
+        margin-top: -120px;
+    }
+}
+
+@media only screen  and (max-width: 1600px){
+    .image_komputer {
+        position: absolute;
+        width: 531px;
+        display: none;
+        height: 703px;
+        background-image: url(./image/photo_2022-12-24_18-42-10-removebg-preview.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        right: 5%;
+        z-index: -1;
+        top: 8%;
+    }
+}
+@media only screen and (max-width: 1450px) {
+    .text_and_hronos {
+        margin-left: 62px;
+    }
+
+    header {
+        padding: 0 60px;
+    }
+
+    .pizda_block {
+        padding: 0 62px;
+    }
+
+    .logo {
+        margin-left: 121px;
+    }
+
+    .prof-item img {
+        margin-left: 108px;
+    }
+
+    .prof-text2 {
+        font-size: 14px;
+    }
+}
